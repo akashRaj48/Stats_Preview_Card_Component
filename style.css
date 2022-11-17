@@ -1,0 +1,95 @@
+@import url(https://fonts.google.com/specimen/Inter);
+/* @import url(https://fonts.google.com/specimen/Lexend+Deca); */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+.main-container {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(233, 47%, 7%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.two-container {
+  /* border: 1px solid black; */
+  width: 70%;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+}
+.content-box {
+  width: 50%;
+  height: 60vh;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 10px 0px 0px 10px;
+}
+.image-box {
+  width: 50%;
+  height: 60vh;
+  background: url(./images/image-header-desktop.jpg) orchid;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: luminosity;
+  border-radius: 0px 10px 10px 0px;
+
+  /* background: rgba(154, 71, 206, 0.5); */
+}
+
+.heading {
+  width: 80%;
+  /* border: 1px solid black; */
+  margin-top: 50px;
+  margin-left: 40px;
+  font-weight: bold;
+  font-family: [Inter];
+  font-size: 28px;
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 1px;
+}
+mark {
+  color: hsl(277, 64%, 61%);
+  background-color: transparent;
+  font-size: 28px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.sub-heading {
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 40px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.footer-row {
+  width: 80%;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  justify-content: space-evenly;
+}
+.span-1 {
+  width: 20%;
+  text-align: center;
+}
+.f-1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 22px;
+  font-family: 700;
+}
+.f-2 {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
